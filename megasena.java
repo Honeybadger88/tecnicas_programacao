@@ -39,10 +39,8 @@ public class megasena {
 			for (j = 0; j < 6; j++) {
 				if (lucky[i] == guess[j]) {
 					match = match + 1;
-					j++;
-				}
+				}	
 			}
-			i++;
 		}
 
 		if (match > 0 && match <= 3) {
