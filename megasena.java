@@ -35,17 +35,17 @@ public class megasena {
 			}
 		}
 
-
 		for (i = 0; i < 6; i++) {
-			for (j = 0; j < 6; j++)
+			for (j = 0; j < 6; j++) {
 				if (lucky[i] == guess[j]) {
 					match = match + 1;
 					j++;
 				}
+			}
 			i++;
 		}
 
-		if (match >0 && match <= 3) {
+		if (match > 0 && match <= 3) {
 			System.out.println("voce acertou de 1 à 3 numeros");
 		} else if (match == 4) {
 			System.out.println("voce acertou 4 numeros");
@@ -53,7 +53,7 @@ public class megasena {
 			System.out.println("voce ACERTOU 5 numeros");
 		} else if (match == 6) {
 			System.out.println("voce eh multi-milionario,parabens");
-		}else 
+		} else
 			System.out.println("você não acertou nenhum numero");
 	}
 }
