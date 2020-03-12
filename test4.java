@@ -14,8 +14,8 @@ public class test4 {
 
 		xuxa = checkString(palavra);
 
-		if (palavra.length() < 50 && xuxa == true) {
-			System.out.println("risada excede o max de 50 caracteres ou contém caracteres não permitidos");
+		if (palavra.length() > 50 || xuxa == true) {
+			System.out.println("risada excede o max de 50 caracteres ou contÃ©m caracteres nÃ£o permitidos");
 		} else {
 
 			String somenteVogais = "";
@@ -55,7 +55,7 @@ public class test4 {
 
 	// check if its uppercase or special characters
 	public static boolean checkString(String input) {
-		String specialChars = "~`!@#$%^&*()-_=+\\|[{]};:'\",<.>/?éèêãáàâíìîõóòôúùû";
+		String specialChars = "~`!@#$%^&*()-_=+\\|[{]};:'\",<.>/?Ã©Ã¨ÃªÃ£Ã¡Ã Ã¢Ã­Ã¬Ã®ÃµÃ³Ã²Ã´ÃºÃ¹Ã»";
 		char currentCharacter;
 		boolean numberPresent = false;
 		boolean upperCasePresent = false;
