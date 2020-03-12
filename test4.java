@@ -59,7 +59,6 @@ public class test4 {
 		char currentCharacter;
 		boolean numberPresent = false;
 		boolean upperCasePresent = false;
-		boolean lowerCasePresent = false;
 		boolean specialCharacterPresent = false;
 	
 
